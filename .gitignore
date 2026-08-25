@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Local user data
+users.json
+user_profiles.json
+
+# Scratch files
+scratch_*.py
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python model cache
+*.egg-info/
+
+# Dataset
+ml-100k/
